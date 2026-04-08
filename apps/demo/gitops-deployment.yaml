@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
-metadata: 
+metadata:
   name: demo
   namespace: demo
 spec:
@@ -9,7 +9,7 @@ spec:
     matchLabels:
       app: demo-container
   template:
-    metadata: 
+    metadata:
       labels:
         app: demo-container
     spec:
@@ -21,4 +21,3 @@ spec:
           envFrom:
             - configMapRef:
               name: demo-config
-
