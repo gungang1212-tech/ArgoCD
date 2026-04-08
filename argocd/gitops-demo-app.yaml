@@ -5,7 +5,7 @@ metadata:
   name: demo
   namespace: argocd
 spec:
-  proejct: default
+  project: default
 
   source: 
     repoURL: https://github.com/gungang1212-tech/ArgoCD.git # 배포되는 Git 저장소
