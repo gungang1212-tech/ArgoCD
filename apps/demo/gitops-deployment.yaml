@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: demo-container
-          image: docker.io/gungang1212/demo
+          image: docker.io/gungang1212/demo:PLACEHOLDER
           ports:
             - containerPort: 8080
           envFrom:
