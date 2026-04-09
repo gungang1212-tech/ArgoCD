@@ -14,7 +14,7 @@ resources:
 images:
   - name: docker.io/gungang1212/demo
     newName: docker.io/gungang1212/demo
-    newTag: PLACEHOLDER
+    newTag: 8a3e5d9
 
 
 
